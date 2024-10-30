@@ -1,0 +1,215 @@
+.container{
+    max-width: 100%;
+}
+.main{
+    height: 450px;
+}
+.btn{
+    background-color:#d0b371;
+    color: white;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.custom-control {
+    background-color: #d0b371;
+    color: white;
+}
+.main-content{
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.search-content{
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    background-color: #d0b371;
+}
+.property-types{
+    padding: 50px 20px;
+}
+.property-content{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.p-2{
+   background-color: #ecdcb7;
+   height: 50%;
+   border-radius: 10px;
+}
+.icons{
+    font-size: xx-large;
+    border: double;
+    padding: 10px 25px;
+    border-radius: 50%;
+    border-color: #d0b371;
+    color: #d0b371;
+}
+.icount{
+    color: #d0b371;
+}
+.col-md-3 a:hover{
+    .property-content{
+        background-color:#d0b371;
+    }
+    .icons{
+        background-color: white;
+        color: black;
+    }
+    .icount{
+        color: black;
+    }
+}
+.aboutcompanyimage{
+    display: flex;
+    background: linear-gradient(to right, #d0b371 50%, white 50%);
+    padding: 35px;
+}
+.grow-image {
+    transition: transform 0.3s ease;
+}
+
+.aboutcompany .aboutcompanyimage:hover{
+    background: linear-gradient(to left, #d0b371 50%, white 50%);
+    transform: scale(1.1);
+}
+.propertylist{
+    background-image: url(../../../../public/assets/images/bg1.png);
+    background-size: cover;
+    background-position: center;
+}
+.propertylistbg{
+    background: radial-gradient(#ffffff, #ffffffba);
+}
+.propertylist .col-md-6 a{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-color: #d0b371;
+}
+.propertylist .col-md-6 a:hover{
+    background-color:#d0b371;
+}
+.propertylist .properties .col-12{
+    width: 30%;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 10px;
+    background-color: white;
+}
+.propertyspecifications{
+    border-top: 0.5px dotted;
+    padding-top: 10px;
+}
+.propertyspecifications .fa,.propertyprice,.propertyaddress .fa{
+    color: #d0b371;
+    padding-right: 5px;
+}
+.userprofilepic{
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #d0b371;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+    overflow: hidden;
+}
+
+.userprofilepic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviews .col-md-4{
+    width: 30%;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 10px;
+    margin: 0 10px;
+}
+.reviews p,.reviews h5{
+    color: black;
+}
+.reviews .userreview p{
+    width: 100%;
+}
+.reviews .p{
+    width: 50%;
+}
+.browsemorereviews .btn,.browsemoreproperties .btn{
+    width: 25%;
+}
+@media (max-width: 768px) {
+    .w-25{
+        max-width: 100%;
+    }
+    .main{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .main-content {
+        padding: 20px;
+    }
+
+    .search-content {
+        height: auto;
+        padding: 10px;
+    }
+
+    .property-types {
+        padding: 30px 10px;
+    }
+
+    .property-content {
+        padding: 15px 0;
+    }
+
+    .icons {
+        font-size: large;
+    }
+
+    .propertylist .col-md-6 a {
+        padding: 5px 15px;
+    }
+    .propertylist .properties .col-12,.reviews .col-md-4 {
+        width: 90%;
+        margin: 0 5px;
+    }
+    .browsemorereviews .btn,.browsemoreproperties .btn{
+        width: 100%;
+    }
+    .reviews .p{
+        width:80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn {
+        width: 100%;
+    }
+
+    .propertylist .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
